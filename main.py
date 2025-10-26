@@ -82,41 +82,41 @@ async def get_acentos(lang: Optional[str] = None): # Acepta un parámetro 'lang'
     # Lista maestra de acentos con su idioma correspondiente
     acentos_tlds = [
         # --- Español (es) ---
-        {"Id": "com.ar", "nombre": "Español (Argentina)", "lang": "es"},
-        {"Id": "es", "nombre": "Español (España)", "lang": "es"},
-        {"Id": "com.mx", "nombre": "Español (México)", "lang": "es"},
-        {"Id": "com.us", "nombre": "Español (Estados Unidos)", "lang": "es"},
+        {"id": "com.ar", "nombre": "Español (Argentina)", "lang": "es"},
+        {"id": "es", "nombre": "Español (España)", "lang": "es"},
+        {"id": "com.mx", "nombre": "Español (México)", "lang": "es"},
+        {"id": "com.us", "nombre": "Español (Estados Unidos)", "lang": "es"},
         
         # --- Inglés (en) ---
-        {"Id": "com", "nombre": "Inglés (EEUU)", "lang": "en"},
-        {"Id": "co.uk", "nombre": "Inglés (Reino Unido)", "lang": "en"},
-        {"Id": "com.au", "nombre": "Inglés (Australia)", "lang": "en"},
-        {"Id": "ca", "nombre": "Inglés (Canadá)", "lang": "en"},
-        {"Id": "co.in", "nombre": "Inglés (India)", "lang": "en"},
-        {"Id": "ie", "nombre": "Inglés (Irlanda)", "lang": "en"},
-        {"Id": "co.za", "nombre": "Inglés (Sudáfrica)", "lang": "en"},
+        {"id": "com", "nombre": "Inglés (EEUU)", "lang": "en"},
+        {"id": "co.uk", "nombre": "Inglés (Reino Unido)", "lang": "en"},
+        {"id": "com.au", "nombre": "Inglés (Australia)", "lang": "en"},
+        {"id": "ca", "nombre": "Inglés (Canadá)", "lang": "en"},
+        {"id": "co.in", "nombre": "Inglés (India)", "lang": "en"},
+        {"id": "ie", "nombre": "Inglés (Irlanda)", "lang": "en"},
+        {"id": "co.za", "nombre": "Inglés (Sudáfrica)", "lang": "en"},
         
         # --- Portugués (pt) ---
-        {"Id": "com.br", "nombre": "Portugués (Brasil)", "lang": "pt"},
-        {"Id": "pt", "nombre": "Portugués (Portugal)", "lang": "pt"},
+        {"id": "com.br", "nombre": "Portugués (Brasil)", "lang": "pt"},
+        {"id": "pt", "nombre": "Portugués (Portugal)", "lang": "pt"},
         
         # --- Chino (zh-cn, zh-tw) ---
-        {"Id": "zh-cn", "nombre": "Chino (Mandarin/China)", "lang": "zh-cn"},
-        {"Id": "zh-tw", "nombre": "Chino (Mandarin/Taiwan)", "lang": "zh-tw"},
+        {"id": "zh-cn", "nombre": "Chino (Mandarin/China)", "lang": "zh-cn"},
+        {"id": "zh-tw", "nombre": "Chino (Mandarin/Taiwan)", "lang": "zh-tw"},
         
         # --- Otros ---
-        {"Id": "fr", "nombre": "Francés (Francia)", "lang": "fr"},
-        {"Id": "it", "nombre": "Italiano (Italia)", "lang": "it"},
-        {"Id": "de", "nombre": "Alemán (Alemania)", "lang": "de"},
-        {"Id": "ja", "nombre": "Japonés (Japón)", "lang": "ja"},
-        {"Id": "ko", "nombre": "Coreano (Corea)", "lang": "ko"},
-        {"Id": "ru", "nombre": "Ruso (Rusia)", "lang": "ru"},
-        {"Id": "nl", "nombre": "Holandés (Países Bajos)", "lang": "nl"},
-        {"Id": "pl", "nombre": "Polaco (Polonia)", "lang": "pl"},
-        {"Id": "com.vn", "nombre": "Vietnamita (Vietnam)", "lang": "vi"},
-        {"Id": "com.tr", "nombre": "Turco (Turquía)", "lang": "tr"},
-        {"Id": "com.gr", "nombre": "Griego (Grecia)", "lang": "el"},
-        {"Id": "co.th", "nombre": "Tailandés (Tailandia)", "lang": "th"}
+        {"id": "fr", "nombre": "Francés (Francia)", "lang": "fr"},
+        {"id": "it", "nombre": "Italiano (Italia)", "lang": "it"},
+        {"id": "de", "nombre": "Alemán (Alemania)", "lang": "de"},
+        {"id": "ja", "nombre": "Japonés (Japón)", "lang": "ja"},
+        {"id": "ko", "nombre": "Coreano (Corea)", "lang": "ko"},
+        {"id": "ru", "nombre": "Ruso (Rusia)", "lang": "ru"},
+        {"id": "nl", "nombre": "Holandés (Países Bajos)", "lang": "nl"},
+        {"id": "pl", "nombre": "Polaco (Polonia)", "lang": "pl"},
+        {"id": "com.vn", "nombre": "Vietnamita (Vietnam)", "lang": "vi"},
+        {"id": "com.tr", "nombre": "Turco (Turquía)", "lang": "tr"},
+        {"id": "com.gr", "nombre": "Griego (Grecia)", "lang": "el"},
+        {"id": "co.th", "nombre": "Tailandés (Tailandia)", "lang": "th"}
     ]
 
     # Si el usuario NO especificó un idioma, devolvemos toda la lista
